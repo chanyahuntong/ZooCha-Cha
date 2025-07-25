@@ -22,7 +22,7 @@ public class Zoo {
            } 
            else if (animal instanceof Swimable) {
             System.out.println(((Swimable)animal).swimble());
-           }
+           } else System.out.println(" The " + animal.getName() + " walking in the zoo ");
         }
     }
 }
